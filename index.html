@@ -31,10 +31,17 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body class="scroll-smooth">
+    <a
+      title="go to top"
+      href="#top"
+      class="fixed bottom-10 right-6 bg-orange-500 p-3 w-[20px] h-[10px] text-white rounded-full text-2xl text-center flex justify-center items-center cursor-pointer"
+    >
+      ↑
+    </a>
     <header class="container mx-auto">
       <!-- for navber -->
 
-      <nav class="popoins">
+      <nav id="top" class="popoins">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -107,7 +114,7 @@
 
     <main class="container mx-auto">
       <!-- for banner -->
-      <section id="hero" class="mt-12">
+      <section id="top" class="mt-12">
         <div
           class="hero h-[650px] rounded-md"
           style="
